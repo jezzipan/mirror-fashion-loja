@@ -57,6 +57,13 @@ header {
   text-decoration: none;
 }
 
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=seach] {
+  width: 170px;
+}
 
 .container {
   margin: 0 auto;
