@@ -1,0 +1,56 @@
+
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode",  "Lucida Grande", sans-serif;
+}
+/*
+.cabecalho {
+  margin: 0 auto;
+  width: 940px;
+}/*/
+
+header {
+  /*border: 2px solid #9C9C9C;*/
+  position: relative;
+}
+
+.sacola {  
+  background-image:url(./img/sacola.png);
+  background-repeat: no-repeat;
+  background-position:top right;
+  
+  font-size:14px;
+  padding-right:35px;
+  text-align:right;
+  width:140px;
+  padding-top: 8px;
+  outline: 2px solid #9C9C9C;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  border:1px solid #528B8B;
+}
+
+.menu-opcoes ul li {
+  font-size:15px;
+  display: inline;
+  width: 300px;
+  margin-left: 20px;
+ 
+}
+
+.menu-opcoes a {
+  color: #003366;
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
