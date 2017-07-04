@@ -38,6 +38,7 @@ header {
   text-transform: uppercase;
   margin-right: 10px;
   width: 230px; 
+  float: left;
 }
 
 .busca h2,
@@ -55,6 +56,12 @@ header {
 .menu-departamentos a {
   color: #333333;
   text-decoration: none;
+}
+
+.menu-departamentos {
+  clear: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .busca input {
@@ -87,4 +94,8 @@ header {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.destaque {
+  margin-top: 10px;
 }
