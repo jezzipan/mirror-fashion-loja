@@ -38,7 +38,18 @@ header {
   text-transform: uppercase;
   margin-right: 10px;
   width: 230px; 
+}
 
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+  margin: 10px;
+}
+
+.menu-departamentos li{
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px
 }
 
 .container {
