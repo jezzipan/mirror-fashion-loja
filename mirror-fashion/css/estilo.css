@@ -41,6 +41,18 @@ header {
   float: left;
 }
 
+.menu-departamentos li ul {
+  display: none;
+}
+
+.menu-departamentos li:hover ul {
+  display: block;
+}
+
+.menu-departamentos ul ul li {
+  background-color: #dcdcdc;
+}
+
 .busca h2,
 .busca form,
 .menu-departamentos h2 {
