@@ -171,6 +171,10 @@ header {
   text-decoration: none;
 }
 
+. painel li:nth-child(2n):hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
 .painel li:hover {
   box-shadow:  0 0 5px #333;
   transition: box-shadw 0.7s;
