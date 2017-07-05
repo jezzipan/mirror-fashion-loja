@@ -54,7 +54,14 @@ header {
 }
 
 .menu-departamentos li li a:before{
-  content: "-";
+  content: "\2756";
+  padding-right: 5px;
+}
+
+.painel h2:before {
+  content: "2756";
+  padding-right: 5px;
+  opacity: 0.4;
 }
 .busca h2,
 .busca form,
