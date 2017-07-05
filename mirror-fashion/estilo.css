@@ -152,6 +152,11 @@ footer {
 footer .container {
   position: relative;
 }
+.social {
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
 
 .social a {
   /*tamanho da imagem */
