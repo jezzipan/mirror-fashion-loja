@@ -58,3 +58,7 @@ figcaption {
   font-style: italic;
   margin-top: 10px;
 } 
+
+p::first-letter {
+  font-weight: bold;
+}
