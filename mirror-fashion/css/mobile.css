@@ -32,3 +32,11 @@ header h1 img {
 .painel{
     width: auto;
 }
+
+.painel li {
+    width: 30%;
+}
+
+.painel img {
+    width: 100%;
+}
