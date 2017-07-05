@@ -138,6 +138,20 @@ header {
 .novidades {
   background-color: #f5dcdc;
 }
+
 .mais-vendidos {
   background-color: #dcdcf5;
+}
+
+.footer {
+  background-image: url(../img/fundo-rodape.png);
+}
+
+.social a {
+  /*tamanho da imagem */
+  height: 32px;
+  width: 32px;
+  /*imagem replacement */
+  display: block;
+  text-indent: -9999px;
 }
