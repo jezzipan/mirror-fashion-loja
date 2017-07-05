@@ -135,7 +135,7 @@ header {
   padding: 10px;
   width: 445px;
   border-radius: 5%;
-  box-shadow: 3px 3px 3px #FFF;
+  box-shadow: 3px 3px 3px #999;
 }
 
 .novidades {
@@ -158,6 +158,7 @@ header {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-shadow: 3px 3px 2px #FFF
 }
 
 .painel a {
