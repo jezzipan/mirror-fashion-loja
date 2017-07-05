@@ -134,6 +134,8 @@ header {
   margin: 10px 0;
   padding: 10px;
   width: 445px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px #FFF;
 }
 
 .novidades {
