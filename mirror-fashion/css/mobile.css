@@ -23,3 +23,8 @@ header h1 img {
     display: inline-block;
     margin: 5px;
 }
+
+.busca, .menu-departamentos, .destaque img {
+    margin-right: 0;
+    width: 100%;
+}
