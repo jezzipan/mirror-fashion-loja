@@ -174,6 +174,10 @@ header {
 .painel li:hover {
   box-shadow:  0 0 5px #333;
   transition: box-shadw 0.7s;
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 0 0 5px #333;
+  transition: 0.7s;
+
 }
 .novidades {
   background-color: #f5dcdc;
