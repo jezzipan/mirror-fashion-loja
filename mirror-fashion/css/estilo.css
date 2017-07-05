@@ -53,6 +53,9 @@ header {
   background-color: #dcdcdc;
 }
 
+.menu-departamentos li li a:before{
+  content: "-";
+}
 .busca h2,
 .busca form,
 .menu-departamentos h2 {
