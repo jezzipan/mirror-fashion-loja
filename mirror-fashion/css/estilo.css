@@ -177,6 +177,7 @@ header {
   background-color: rgba(255,255,255,0.8);
   box-shadow: 0 0 5px #333;
   transition: 0.7s;
+  transform: scale(1.2) rotate(-5deg);
 
 }
 .novidades {
