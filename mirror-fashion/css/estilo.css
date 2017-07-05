@@ -158,6 +158,11 @@ footer .container {
   right: 0;
 }
 
+.social li {
+  float: left;
+  margin-left: 25px;
+}
+
 .social a {
   /*tamanho da imagem */
   height: 32px;
