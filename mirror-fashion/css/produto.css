@@ -35,3 +35,8 @@ label[for=azul]:after {
 .cores input:not(:checked)+label img {
     display: none;
 }
+
+.cores {
+    position: relative;
+    padding-top: 90px;
+}
