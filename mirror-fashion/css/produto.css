@@ -100,10 +100,10 @@ label[for=azul]:after {
 
 @media (min-width: 630px) {
     .produto {
-/* a foto vai se posicionar absolutamente com relacao a esse element, por isso foi posicionado */
+    /* a foto vai se posicionar absolutamente com relacao a esse element, por isso foi posicionado */
         position: relative;
     
-/*deixo 40% de espaco em banco a esquerda p/ a foto ocupa */
+    /*deixo 40% de espaco em banco a esquerda p/ a foto ocupa */
 
         padding: 0;
     }
@@ -111,6 +111,12 @@ label[for=azul]:after {
     .cores {
         position: static;
         padding: 0;
+    }
+
+    .cores label img {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
 
