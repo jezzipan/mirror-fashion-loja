@@ -3,6 +3,16 @@
     display: table-column;
     }
 }
+
+.cores label::after {
+    border: 6px solid rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+
+.cores label:hover:after {
+    border: 6px solid rgba(0, 0, 0, .1);
+}
+
 .cores label:after {
     content: '';
     display: block;
@@ -87,13 +97,6 @@ label[for=azul]:after {
     padding: .5em 1em;
     margin: 1em 0; 
 }
-
-.cores label::after {
-    border: 6px solid rgba(0, 0, 0, 0);
-    transition: 1s;
-}
-
-
 
 
 
