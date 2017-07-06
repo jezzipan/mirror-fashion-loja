@@ -27,4 +27,6 @@ label[for=azul]:after {
     box-sizing: border-box; 
 }
 
-
+.cores input[type=radio] {
+    display: none;
+}
