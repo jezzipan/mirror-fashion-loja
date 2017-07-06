@@ -18,8 +18,9 @@ label[for=azul]:after {
     background-color: #6666ff;
 }
 
-.cores input:checked + label:after {
+.cores input:checked +label:after {
     border: 6px solid rgba(0, 0, 0, o.3);
+    box-shadow: inset 0 0 2px #dcdcdc;
 }
 
 .cores label:after {
@@ -31,6 +32,6 @@ label[for=azul]:after {
     display: none;
 }
 
-.cores input:not(checked) + label img {
+.cores input:not(:checked)+label img {
     display: none;
 }
