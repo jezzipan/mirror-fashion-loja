@@ -108,6 +108,11 @@ label[for=azul]:after {
         padding: 0;
     }
 
+    .cores {
+        position: static;
+        padding: 0;
+    }
+
 
 }
 
