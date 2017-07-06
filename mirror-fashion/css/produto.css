@@ -88,6 +88,11 @@ label[for=azul]:after {
     margin: 1em 0; 
 }
 
+.cores label::after {
+    border: 6px solid rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+
 
 
 
