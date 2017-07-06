@@ -30,3 +30,7 @@ label[for=azul]:after {
 .cores input[type=radio] {
     display: none;
 }
+
+.cores input:not(checked) + label img {
+    display: none;
+}
