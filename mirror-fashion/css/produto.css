@@ -119,6 +119,10 @@ label[for=azul]:after {
         left: 0;
     }
 
+    .cores label:after {
+        position: static;
+        float: left;
+    }
 
 }
 
