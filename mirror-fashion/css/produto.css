@@ -76,6 +76,18 @@ label[for=azul]:after {
     font-weight: bold;
 }
 
+.comprar {
+    background: #91bd3c;
+    border: none;
+    color: #333;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px;
+    display: block;
+    padding: .5em 1em;
+    margin: 1em 0; 
+}
+
 
 
 
