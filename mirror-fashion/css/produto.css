@@ -1,3 +1,8 @@
+@media (min--moz-device-pixel-ratio:0) {
+    fieldset {
+    display: table-column;
+    }
+}
 .cores label:after {
     content: '';
     display: block;
