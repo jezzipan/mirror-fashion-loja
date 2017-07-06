@@ -46,3 +46,14 @@ label[for=azul]:after {
     padding-top: 90px;
 }
 
+.cores legend {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cores label img {
+    display: block;
+    max-width: 100%;
+}
+
