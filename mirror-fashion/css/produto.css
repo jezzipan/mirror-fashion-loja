@@ -102,10 +102,11 @@ label[for=azul]:after {
     .produto {
     /* a foto vai se posicionar absolutamente com relacao a esse element, por isso foi posicionado */
         position: relative;
+        font-size: 1.2em;
     
     /*deixo 40% de espaco em banco a esquerda p/ a foto ocupa */
 
-        padding: 0;
+        padding-left: 40%;
     }
 
     .cores {
@@ -117,13 +118,16 @@ label[for=azul]:after {
         position: absolute;
         top: 0;
         left: 0;
+        max-width: 35%;
+        max-height: 100%;
+    
     }
 
     .cores label:after {
         position: static;
         float: left;
+        margin-right: 10px;
     }
-
 }
 
 
