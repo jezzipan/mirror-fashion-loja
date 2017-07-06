@@ -22,3 +22,9 @@ label[for=azul]:after {
     border: 6px solid rgba(0, 0, 0, o.3);
 }
 
+.cores label:after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+
