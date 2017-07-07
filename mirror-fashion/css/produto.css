@@ -63,7 +63,7 @@ label[for=azul]:after {
 }
 
 .cores legend {
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
 }
@@ -128,6 +128,15 @@ label[for=azul]:after {
         float: left;
         margin-right: 10px;
     }
+
+        fieldset {
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em 0;
+        min-width: 200px;
+        width: 45%;
+    }
 }
+
 
 
