@@ -67,6 +67,25 @@
 
             <fieldset>
               <legend>Cartão de crédito </legend>
+              
+              <div class="form-group">
+                <label for="numero-cartao"> Número - CW</label>
+                <input type="text"class="numero-cartao" id="numero-cartao" name="numero-cartao">
+              </div>
+
+              <div class="form-group">
+                <label for="bandeira-cartao"> Bandeira</label>
+                <select name="bandeira-cartao" id="bandeira-cartao"class="form-control">
+                  <option value="master"> MasterCard</option>
+                  <option value="visa"> Visa</option>
+                  <option value="amex"> American Express</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="validade-cartao"> Validade </label>
+                <input type="month"class="form-control" id="validade-cartao" name="validade-cartao">
+              </div>
             </fieldset>
             
             <button type="submit" class="btn btn-primary">
