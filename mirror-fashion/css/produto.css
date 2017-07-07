@@ -118,7 +118,27 @@ table {
     border-spacing: 0.2em;
     border-collapse: separate;
 }
+thead {
+    background-color: #999;
+}
 
+thead th {
+    font-weight: bold;
+    padding: .3em 1em;
+    text-align: center;
+}
+
+td {
+    padding: .3em;
+}
+
+tr:nth-child(2n) {
+    background-color: #ccc;
+}
+
+td:first-child {
+    font-style: italic;
+}
 @media (min-width: 630px) {
     .produto {
     /* a foto vai se posicionar absolutamente com relacao a esse element, por isso foi posicionado */
