@@ -12,10 +12,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <div class="row">
-
-          <div class="col-sm-4">
-            <div class="panel panel-defaut">
+        
 
         <h1>Ótima escolha!</h1>
         <p>Obrigado por comprar na Mirror Fashion! Preencha seus dados para efetivar a compra.</p>
@@ -24,8 +21,8 @@
     </div> <!-- end jumbotron-->
 
     <div class="container">
-
-
+      <div class="row">
+         <div class="col-sm-4">
       <div class="panel panel-default">
 
         <div class="panel-heading">
@@ -38,15 +35,29 @@
 
           <img src="img/produtos/foto1-verde>.png" class="img-thumbnail img-responsive">
           <!-- end panel-body   ERA PHP-->
+
+          <dl>
+            <dt>Cor</dt>
+            <dd>Cor</dd>
+            <dt>Tamanho</dt>
+            <dd>Tamanho</dd>
+            <dt>Produto</dt>
+            <dd>Nome></dd>
+            <dt>Preço</dt>
+            <dd>R$ <?= $_POST['preco'] ?></dd>
+          </dl>
           
+        </div> <!-- end panel-body ERA PHP-->
+
+      </div> <!-- end panel panel-default-->
           
-          <form> 
-            <form class="col-sm-8">
+         </div>
+          <form class="col-sm-8"> 
             <div class="row">
             <fieldset>
               <fieldset class="col-md-6">
               <legend>Dados Pessoais </legend>
-             
+              </fieldset class="col-md-6">
               <div class="form-group">
                 <label for="nome"> Nome Completo</label>
                 <input type="text"class="form-control" id="nome" name="nome">
@@ -78,7 +89,8 @@
                 Quero receber spam da Mirror Fashion
                 </label>
               </div>
-              </fieldset class="col-md-6">
+
+           
             </fieldset>
 
             <fieldset>
@@ -110,33 +122,8 @@
                 <span class="brn-lg"></span>
               Confirmar Pedido
             </button>
-            </form>
-          </form>
-
-          
-
-
-
-
-          </form>
-          
-          
-          
-          <dl>
-            <dt>Cor</dt>
-            <dd>Cor</dd>
-            <dt>Tamanho</dt>
-            <dd>Tamanho</dd>
-            <dt>Produto</dt>
-            <dd>Nome></dd>
-            <dt>Preço</dt>
-            <dd>R$ <?= $_POST['preco'] ?></dd>
-          </dl>
-          
-        </div> <!-- end panel-body ERA PHP-->
-
-      </div> <!-- end panel panel-default-->
-
+            </div>
+           </form>
     </div> <!-- end container-->
 
   </body>
