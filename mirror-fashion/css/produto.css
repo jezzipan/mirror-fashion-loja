@@ -114,6 +114,11 @@ label[for=azul]:after {
     max-width: 36em;
 }
 
+table {
+    border-spacing: 0.2em;
+    border-collapse: separate;
+}
+
 @media (min-width: 630px) {
     .produto {
     /* a foto vai se posicionar absolutamente com relacao a esse element, por isso foi posicionado */
